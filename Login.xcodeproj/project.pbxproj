@@ -14,6 +14,7 @@
 		6F6E80F920CF704500E5F509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6E80F720CF704500E5F509 /* LaunchScreen.storyboard */; };
 		6F6E810420CF704600E5F509 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E810320CF704600E5F509 /* LoginTests.swift */; };
 		6F6E810F20CF704600E5F509 /* LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E810E20CF704600E5F509 /* LoginUITests.swift */; };
+		6F6E811E20CF72AF00E5F509 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E811D20CF72AF00E5F509 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6F6E810A20CF704600E5F509 /* LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6E810E20CF704600E5F509 /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITests.swift; sourceTree = "<group>"; };
 		6F6E811020CF704600E5F509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6E811D20CF72AF00E5F509 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		6F6E80ED20CF704200E5F509 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				6F6E811C20CF728600E5F509 /* Utils */,
 				6F6E80EE20CF704200E5F509 /* AppDelegate.swift */,
 				6F6E80F020CF704200E5F509 /* ViewController.swift */,
 				6F6E80F220CF704200E5F509 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				6F6E811020CF704600E5F509 /* Info.plist */,
 			);
 			path = LoginUITests;
+			sourceTree = "<group>";
+		};
+		6F6E811C20CF728600E5F509 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6F6E811D20CF72AF00E5F509 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				6F6E80F120CF704200E5F509 /* ViewController.swift in Sources */,
 				6F6E80EF20CF704200E5F509 /* AppDelegate.swift in Sources */,
+				6F6E811E20CF72AF00E5F509 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
